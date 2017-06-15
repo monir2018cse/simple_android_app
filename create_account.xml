@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/SVsu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvuname"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        android:textSize="14pt"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/TEuname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvuname"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/tvpword"
+        android:textColor="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:textSize="14pt"
+        android:layout_below="@+id/TEuname"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/TEpword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvpword"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/tvrepword"
+        android:textColor="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/repw"
+        android:textSize="14pt"
+        android:layout_below="@+id/TEpword"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/TErepword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvrepword"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/tvemail"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textSize="14pt"
+        android:layout_below="@+id/TErepword"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/TEemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvemail"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/tvmnumber"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mnumber"
+        android:textSize="14pt"
+        android:layout_below="@+id/TEemail"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/TEmnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvmnumber"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signup"
+        android:layout_below="@id/TEmnumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
